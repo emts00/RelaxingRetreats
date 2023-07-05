@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Relaxing Retreats</title>
+
+    <!-- Bootstrap link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+    <!-- Linking HTML document to CSS file -->
+
+    <link rel="stylesheet" href="styles.css">
+
+
+    <!-- Adding the social media icon library -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Font links -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Josefin+Sans&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Josefin+Sans:wght@200;400&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+
+
+<body>
+
+    <!-- Linking HTML to JS file -->
+
+    <script type="text/javascript" src="scripts.js"></script>
+
+    <!-- Bootstrap Link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Main Title -->
+
+    <h1 class="mainTitle">Relaxing Retreats</h1>
+
+
+    <!-- Navbar Code -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="navbar">
+
+            <a class="logo" href="index.html">RR</a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <ul class="navbar-navs">
+                <li class="homePage">
+                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="about">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="deals">
+                    <a class="nav-link" href="deals.html">DEALS</a>
+                </li>
+                <li class="book">
+                    <a class="nav-link" href="book.html">BOOK NOW</a>
+                </li>
+            </ul>
+
+
+            <div class="socialButtons">
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://www.pinterest.co.uk/" class="fa fa-pinterest"></a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den"
+                    class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+            </div>
+
+
+            <button class="btn btn-primary" id="subscribeButton" onclick="subscribe()">SUBSCRIBE</button>
+
+
+        </div>
+    </nav>
+
+
+    <!-- Banner code -->
+
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <section>
+        <div>
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h2 class="bookingtitle"> Go on an adventure of a lifetime</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Linking to js-->
+
+    <script src="scripts.js"></script>
+
+
+    <!-- Book now text-->
+
+    <h2 class="booknowtext">Book now to explore hundreds of amazing destinations!</h2>
+
+
+    <!--Form-->
+
+    <script type="text.javascript"></script>
+    <section id="survey-form">
+        <form id="survey-form" form action="mailto:admin@relaxingretreats.com" method="post" enctype="text/plain">
+            <fieldset>
+                <div>
+                    <label id="name">Name</label>
+                    <input type="text" id="name" placeholder="e.g. Jane Doe" class="textbox" required>*
+                </div>
+                <div><label id="email"> Email</label>
+                    <input type="email" id="email" placeholder="e.g. JaneDoe@gmail.com" class="textbox" required>*
+                </div>
+                <div><label id="guest">Guests</label>
+                    <input type="number" id="guest" min="0" max="20" class="textbox" required>
+                </div>
+                <div><label id="hotel">What type of holiday?</label>
+
+                    <label for="all-inclusive"><input id="hotel" type="radio" name="hotel"
+                            style="width:15px; height:15px" value="all-inclusive" /> All Inclusive</label>
+                    <label for="self-catered"><input id="hotel" type="radio" name="hotel"
+                            style="width:15px; height:15px" value="self-catered" /> Self-Catered</label>
+                    <label for="any"><input id="hotel" type="radio" name="hotel" style="width:15px; height:15px"
+                            value="any" /> Any </label>
+                </div>
+                <div><label for="uk-airport" id="uk-airport">From</label>
+                    <Select id="uk-airport" name="uk-airport" class="textbox" required>
+                        <option value="Select-an-option" class="option">Select an Airport </option>
+                        <option value="Belfast-airport" class="option">Belfast </option>
+                        <option value="Birmingham-airport" class="option">Birmingham </option>
+                        <option value="Bristol-airport" class="option">Bristol </option>
+                        <option value="Dublin-airport" class="option">Dublin </option>
+                        <option value="Glasgow-airport" class="option">Glasgow </option>
+                        <option value="Leeds-Bradford-airport" class="option">Leeds Bradford </option>
+                        <option value="Liverpool-John-Lennon-airport" class="option">Liverpool John Lennon </option>
+                        <option value="London-Gatwick-airport" class="option">London Gatwick </option>
+                        <option value="London-Heathrow-airport" class="option">London Heathrow </option>
+                        <option value="London-Gatwick-airport" class="option">London Gatwick </option>
+                        <option value="Manchester-airport" class="option">Manchester </option>
+                        <option value="Newcastle-airport" class="option">Newcastle </option>
+                    </select>
+                </div>
+                <div><label for="uk-airport" id="uk-airport">To</label>
+                    <Select id="destination" name="destination" class="textbox" required>
+                        <option value="Select-an-option" class="option">Select a destination </option>
+                        <option value="Tokyo-Japan" class="option">Tokyo, Japan </option>
+                        <option value="New-York-USA" class="option">New York, USA </option>
+                        <option value="Paris-France" class="option">Paris, France </option>
+                        <option value="Brazil" class="option"> Brazil</option>
+                        <option value="Thailand" class="option"> Thailand</option>
+                        <option value="Jamaica" class="option"> Jamaica</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="checkin-date">Check-in Date</label>
+                    <input type="date" id="checkinDate" name="checkin" required>
+                </div>
+
+                <div><label id="nights">Nights</label>
+                    <input type="number" id="nights" min="0" max="30" class="textbox">
+                </div>
+                <div><label for="destination-package" id="destination-package">OR choose a package</label>
+                    <Select id="destination-package" name="destination-package" class="textbox" required>
+                        <option value="Select-an-option" class="option">Select a destination package </option>
+                        <option value="Tokyo-Japan" class="option">10 days Tokyo, Japan for £xxxx pp</option>
+                        <option value="New-York-USA" class="option">7 days New York, USA for £xxxx pp</option>
+                        <option value="Paris-France" class="option">7 days Paris, France for £xxxx pp</option>
+                        <option value="Brazil" class="option">10 days Brazil for £xxxx pp</option>
+                    </select>
+                </div>
+                <div>
+                    <button id="submit">Lets go!</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <p class="footerCopyright">Copyright &copy 2023 • Code First Girls Project • All Rights Reserved </p>
+        <h2 class="footerLogo">RR</h2>
+
+
+        <ul class="footerLinks">
+
+            <li class="footerhome">
+                <a class="nav-link" href="index.html">HOME</a>
+            </li>
+
+            <li class="footerabout">
+                <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+
+            <li class="footerdeals">
+                <a class="nav-link" href="deals.html">DEALS</a>
+            </li>
+
+            <li class="footerbook">
+                <a class="nav-link" href="book.html">BOOK NOW</a>
+            </li>
+
+        </ul>
+
+
+        <address class="footeraddress">
+            40 Brook Street, London, UK<br>
+            www.relaxingretreats.co.uk<br>
+            07123456789
+        </address>
+
+
+        <div class="footersocialButtons">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.pinterest.co.uk/" class="fa fa-pinterest"></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

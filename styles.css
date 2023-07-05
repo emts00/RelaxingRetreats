@@ -1,0 +1,1212 @@
+/* Main Title */
+
+
+.mainTitle {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Homemade Apple', cursive;
+    color: black;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+
+/* Navbar */
+
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #e8e7de;
+    position: relative;
+}
+
+.navbar-navs {
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-flex;
+    background-color: #e8e7de;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-left: 208px;
+    float: left;
+}
+
+.navbar ul li {
+    float: center;
+}
+
+.navbar-navs a {
+    padding-right: 80px;
+}
+
+.logo {
+    font-size: 40px;
+    font-style: italic;
+    height: 60px;
+    font-family: 'Homemade Apple', cursive;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    font-weight: bold;
+    font-size: 15px;
+    color: red;
+}
+
+
+/* Social buttons */
+
+
+.fa {
+    float: left;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 30px;
+    width: 30px;
+    text-decoration: none;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+#subscribeButton {
+    border: black 1px solid;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+/* Home Page Banner */
+
+.homebannerImage {
+    background-image: url("images/holidayimage.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 550px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    position: relative;
+    background-position: 50% 30%;
+    isolation: isolate;
+    border-radius: 20px;
+    ;
+}
+
+.homebannerImage::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: white;
+    opacity: 30%;
+}
+
+#lastminutedealscard {
+    width: 550px;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.636);
+    margin-right: 13%;
+    margin-top: 5%;
+    border: black solid transparent;
+    border-radius: 20px;
+    box-shadow: 5px 10px grey;
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: white;
+    opacity: 70%;
+}
+
+.homebannerTextTitle {
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.homebannerTextOne {
+    font-size: 20px;
+    width: 500px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 35px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.homebannerTextTwo {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+#dealsButton {
+    width: 50%;
+    margin-left: 26%;
+    margin-bottom: 30px;
+    border: black 1px solid;
+}
+
+
+
+
+/* Bootstrap Cards - Home Page */
+
+.bootstrapcardsintrotitle {
+    font-family: 'Homemade Apple', cursive;
+    color: red;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.card-title {
+    font-family: 'Homemade Apple', cursive;
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.card-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #03045E;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px 10px;
+}
+
+.bootstrapintrotext{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.cardlinkimage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About */
+
+.aboutTitle {
+
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.aboutphotoone {
+    border-radius: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 500px;
+    position: relative;
+    right: 50px;
+    margin-top: 50px;
+}
+
+.aboutphototwo {
+    border-radius: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    position: relative;
+    right: 55px;
+
+}
+
+.whoarewe {
+    margin-top: 50px;
+    position: relative;
+    right: 20px;
+}
+
+.whoarewetitle {
+    float: right;
+    font-size: 35px;
+    font-family: 'Homemade Apple', cursive;
+    margin-right: 65px;
+    margin-top: 20px;
+}
+
+
+.whoarewetext {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 90px;
+    margin-left: 30px;
+}
+
+.wheretitle {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Homemade Apple', cursive;
+    margin-top: 180px;
+    width: 100%;
+}
+
+.wheretext {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    margin-right: 35px;
+}
+
+.aboutphotothree {
+    margin-top: 100px;
+    border-radius: 15px;
+    position: relative;
+    left: 30px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 450px;
+}
+
+.aboutphotofour {
+    border-radius: 50px;
+    max-height: 100%;
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    right: 50px;
+    margin-top: 100px;
+}
+
+.aboutphotofive {
+    border-radius: 50px;
+    margin-top: 100px;
+    max-height: 100%;
+    max-width: 100%;
+    height: 500px;
+    position: relative;
+    right: 40px;
+
+}
+
+.aboutcomingsoontitle {
+    float: right;
+    font-size: 35px;
+    font-family: 'Homemade Apple', cursive;
+    margin-right: 45px;
+    margin-top: 100px;
+    color: black;
+}
+
+.aboutcomingsoontext {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 180px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    color: black;
+}
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #e8e7de;
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.footerCopyright {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+.footerLogo {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+}
+
+.footerLinks {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-flex;
+    list-style-type: none;
+    float: center;
+    font-weight: bold;
+}
+
+.footerhome {
+    padding-right: 20px;
+}
+
+.footerabout {
+    padding-right: 20px;
+}
+
+.footerdeals {
+    padding-right: 20px;
+}
+
+address {
+    margin-top: 8px;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footersocialButtons {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 0px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/* Booking form */
+
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    background-color: #E8E7DE !important;
+    color: #E8E7DE;
+}
+
+
+div#navbarNav.collapse.navbar-collapse {
+    align-items: center;
+    margin: center;
+    justify-content: center;
+    display: center, space-evenly !important;
+    background-color: #E8E7DE !important;
+    margin: 0;
+    padding: 0;
+
+}
+
+div.container-fluid {
+    background-color: #E8E7DE;
+}
+
+li.nav-item {
+    margin-right: 30px;
+}
+
+button.btn.square-pill.px-3 {
+    display: flex;
+    align-items: flex-end;
+    border: black 1px solid;
+    background-color: white !important;
+
+}
+
+
+.hero-image {
+    background-image: url('https://10mosttoday.com/wp-content/uploads/2019/04/Maldives.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 550px;
+    margin-bottom: 30px;
+    background-size: cover;
+    position: relative;
+    background-position: 50% 30%;
+    isolation: isolate;
+    border-radius: 20px;
+    opacity: 0.75;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+}
+
+h1,
+p {
+    text-align: top right;
+}
+
+.h1 {
+    align-items: top;
+    margin: 60px;
+    font-family: 'Homemade Apple', cursive;
+
+}
+
+
+.bookingtitle {
+    font-family: 'Homemade Apple', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 120px;
+
+}
+
+
+.booknowtext {
+    font-family: 'Homemade Apple', cursive;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section#survey-form {
+    margin: 40px;
+}
+
+fieldset {
+    border-radius: 5px;
+    padding: 20px;
+    font-family: sans-serif;
+    width: fit-content;
+    border: 1px solid grey;
+    font-size: medium;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+form#survey-form {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 0em;
+    line-height: 2;
+    max-width: 100%;
+    width: auto;
+}
+
+input {
+    max-width: 100%;
+    width: auto;
+}
+
+.option {
+    max-width: 100%;
+    width: auto;
+}
+
+button#submit {
+    background-color: #0d6efd;
+    color: white;
+    width: auto;
+    border: none;
+    height: auto;
+    font-family: sans-serif;
+    font-size: large;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #E8E7DE;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/* Brazil Page */
+
+h3 {
+    font-family: 'Homemade Apple', cursive;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.pintro {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.brazilbackgroundimage {
+    background-image: url("images/brazil.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    position: relative;
+    background-position: 10% 50%;
+    isolation: isolate;
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+.braziltitle {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 100px;
+    padding-top: 150px;
+    text-align: center;
+    color: red;
+}
+
+.brazil { 
+    border-radius: 25px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+    height: 400px;
+}
+
+.braziltext {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+/* Japan Page */
+
+.japanbannertitle {
+    font-family: 'Homemade Apple', cursive;
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.japanbannertext {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 60px;
+    text-align: center;
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+}
+
+div.card.mb-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.col-md-6-osaka {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-flow: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    align-content: flex-end;
+}
+
+img {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
+
+body {
+    margin: 10px auto;
+    padding: 0;
+    align-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section {
+    margin: 40px;
+    padding: 10px;
+}
+
+.hero-image-japan {
+    background-image: url("images/japan.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.75;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hero-text-japan {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 110px;
+    text-align: center;
+    color: red;
+}
+
+.cardtitle {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 30px;
+}
+
+#catsimage {
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 800px;
+    height: 400px;
+    margin-top: 40px;
+}
+
+#osakaimage {
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 800px;
+    height: 400px;
+    margin-top: 40px;
+}
+
+#tokyoimage {
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 400px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+/* Paris Page */
+
+/* Banner */
+
+
+.parisbackgroundimage {
+    background-image: url("images/parisbannerpic.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    position: relative;
+    background-position: 50% 80%;
+    isolation: isolate;
+    border-radius: 20px;
+}
+
+.bonjour {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+    margin-left: 200px;
+    padding-top: 110px;
+    color: red;
+}
+
+
+/* Places to see */
+
+.placestoseetitle {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+
+/*Eiffel Tower */
+
+.eiffeltowerpic {
+    margin-top: 20px;
+    height: 600px;
+    width: 700px;
+    border-radius: 15px;
+    position: relative;
+    right: 20px;
+}
+
+.eiffeltowernight {
+    max-height: 100%;
+    height: 600px;
+    width: 700px;
+    border-radius: 15px;
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+}
+
+.eiffeltowertitle {
+    font-size: 35px;
+    font-family: 'Homemade Apple', cursive;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: 200px;
+    text-decoration: underline;
+}
+
+.eiffeltowertext {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding-left: 200px;
+    text-align: center;
+}
+
+
+
+/* Louvre */
+
+.lovretitle {
+    font-size: 35px;
+    font-family: 'Homemade Apple', cursive;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 60px;
+    text-decoration: underline;
+}
+
+.louvretext {
+    margin-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.louvrepic {
+    margin-top: 90px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 500px;
+    border-radius: 15px;
+    position: relative;
+    left: 30px;
+}
+
+
+
+/* Notre Dame */
+
+.notredamepic {
+    margin-top: 80px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 550px;
+    height: 550px;
+    margin-right: 100px;
+    border-radius: 15px;
+    position: relative;
+    left: 5px;
+}
+
+.notredametitle {
+    font-size: 35px;
+    font-family: 'Homemade Apple', cursive;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 60px;
+    text-decoration: underline;
+}
+
+.notredametext {
+    margin-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+
+
+/* Sacre Coeur */
+
+.sacrecoeurpic {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    height: 500px;
+    max-width: 100%;
+    border-radius: 15px;
+    position: relative;
+    right: 70px;
+}
+
+.sacrecoeurpicone {
+    height: 500px;
+    max-width: 100%;
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 20px;
+    right: 150px;
+}
+
+.sacrecoeurtitle {
+    font-size: 35px;
+    font-family: 'Homemade Apple', cursive;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 65px;
+    text-decoration: underline;
+}
+
+.sacrecoeurtext {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+/* Jamacia Page */ 
+
+.comingsoonpagetitle {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 40px;
+    text-align: center;
+    color: red;
+}
+
+.comingsoon {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 60px;
+    text-align: center;
+    color: red;
+}
+
+.hero-image-jamaica {
+    background-image: url("images/jamaica.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    opacity:0.75;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+/* New York Page */ 
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+
+.hero-image-newyork {
+    background-image: url("images/new_york.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    opacity:0.75;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+
+
+/* Thailand Page */ 
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+    color: #03045E;
+    font-size: 30px;
+    text-align: center;
+}
+
+.p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero-image-thailand {
+    background-image: url("images/thailand.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    opacity:0.75;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+}
+
+
+
+/* Deals pahe */ 
+
+.dealsbackgroundimage {
+    background-image: url("images/dealsbanner.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    position: relative;
+    background-position: 30% 50%;
+    isolation: isolate;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.dealstitle {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+    padding-top: 70px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+

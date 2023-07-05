@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Relaxing Retreats</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+
+    <!-- Linking HTML document to CSS file -->
+
+    <link rel="stylesheet" href="styles.css">
+
+
+    <!-- Adding the social media icon library -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Font links -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Josefin+Sans&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Josefin+Sans:wght@200;400&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS styling of subscribe page -->
+
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+
+        .backgroundImage {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/seaandflowers.jpg");
+            height: 80%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            color: white;
+            padding-top: 150px;
+            padding-left: 100px;
+        }
+
+        .smallerSubscribePageText {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 25px;
+            padding-left: 50px;
+            margin-bottom: 20px;
+        }
+
+        .subscribeTitle {
+            font-family: 'Homemade Apple', cursive;
+            font-size: 50px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        form {
+            background: white;
+            display: flex;
+            width: fit-content;
+            margin: 50px 50px;
+        }
+
+        form input {
+            border: black solid 2px;
+            padding: 10px 20px;
+            height: 70px;
+            width: 400px;
+            font-size: 18px;
+        }
+
+        form button {
+            border: none;
+            outline: none;
+            height: 70px;
+            width: 90px;
+            cursor: pointer;
+            background-color: white;
+        }
+
+        #sendicon {
+            height: 60px;
+            width: 90x;
+            display: flex;
+            padding-left: 5px;
+        }
+
+        #subscribemessage {
+            color: yellow;
+            font-weight: bold;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            margin-top: 10px;
+            display: block;
+            margin-left: 60px;
+
+        }
+    </style>
+
+
+</head>
+
+
+
+<body>
+
+    <!-- Linking HTML to JS file -->
+
+    <script type="text/javascript" src="scripts.js"></script>
+
+
+    <!-- Bootstrap Link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Main Title -->
+
+    <h1 class="mainTitle">Relaxing Retreats</h1>
+
+
+    <!-- Navbar Code -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="navbar">
+
+            <a class="logo" href="index.html">RR</a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <ul class="navbar-navs">
+                <li class="homePage">
+                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="about">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="deals">
+                    <a class="nav-link" href="deals.html">DEALS</a>
+                </li>
+                <li class="book">
+                    <a class="nav-link" href="book.html">BOOK NOW</a>
+                </li>
+            </ul>
+
+
+            <div class="socialButtons">
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://www.pinterest.co.uk/" class="fa fa-pinterest"></a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den"
+                    class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+            </div>
+
+
+            <button class="btn btn-primary" id="subscribeButton" onclick="subscribe()">SUBSCRIBE</button>
+
+
+        </div>
+    </nav>
+
+
+    <!-- Subscribe Page Code-->
+
+    <div class="backgroundImage">
+
+        <p class="smallerSubscribePageText">We like to keep you updated.</p>
+
+        <h2 class="subscribeTitle">Subscribe to our newsletter!</h2>
+
+        <p class="smallerSubscribePageText">More info coming soon. Don't miss out!</p>
+
+        <form>
+            
+            <input type="email" name="Email" placeholder="Type your email here" required>
+
+            <button type="submit"><img id="sendicon" src="images/sendicon.png" alt="send icon button"
+                    onclick="displaymessage()">
+
+            </button>
+
+        </form>
+
+        <div id="subscribemessage">THANK YOU FOR SUBSCRIBING, PLEASE CHECK YOUR
+            EMAIL!</div>
+
+
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <p class="footerCopyright">Copyright &copy 2023 • Code First Girls Project • All Rights Reserved </p>
+        <h2 class="footerLogo">RR</h2>
+
+
+        <ul class="footerLinks">
+
+            <li class="footerhome">
+                <a class="nav-link" href="index.html">HOME</a>
+            </li>
+
+            <li class="footerabout">
+                <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+
+            <li class="footerdeals">
+                <a class="nav-link" href="deals.html">DEALS</a>
+            </li>
+
+            <li class="footerbook">
+                <a class="nav-link" href="book.html">BOOK NOW</a>
+            </li>
+
+        </ul>
+
+
+        <address class="footeraddress">
+            40 Brook Street, London, UK<br>
+            www.relaxingretreats.co.uk<br>
+            07123456789
+        </address>
+
+
+        <div class="footersocialButtons">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.pinterest.co.uk/" class="fa fa-pinterest"></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+        </div>
+
+    </footer>
+
+
+</body>
+
+
+
+</html>
