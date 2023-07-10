@@ -131,7 +131,7 @@
 /* Home Page Banner */
 
 .homebannerImage {
-    background-image: url("holidayimage.jpeg");
+    background-image: url("./images/holidayimage.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
     height: 550px;
